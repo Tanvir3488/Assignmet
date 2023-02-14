@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test2</string>
+    <string name="title_home">User Add</string>
+    <string name="title_dashboard">All User</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
