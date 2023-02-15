@@ -65,7 +65,7 @@ class NotificationService () : OSRemoteNotificationReceivedHandler {
         val data = notification.additionalData
         Log.e("OneSignalExample", "Received Notification Data: ${notification.body}")
         GlobalScope.launch {
-            userDao.addUser(User(0,notification.body,notification.title,"from notification","from notificatio"))
+            userDao.addUser(User(0,notification.title,notification.body,"from notification","from notificatio"))
         }
 
         // If complete isn't call within a time period of 25 seconds, OneSignal internal logic will show the original notification
